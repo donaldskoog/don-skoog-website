@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{{ page.title | default:"Chris Butler and Future Fossil Music" }}</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="TITLE" content="Chris Butler - Future Fossil Music">
+  <meta name="DESCRIPTION" content="Official site for Chris Butler and Future Fossil Music">
+  <meta name="KEYWORDS"
+    content="Chris Butler, Future Fossil Music, Kilopop!, Kilopop, I Feel A Bit Normal Today, Devil Glitch, World's longest pop single, world's longest pop song, guitarist, composer, drummer, singer, vocalist, musician, Waitresses, The Waitresses, Tin Huey, Ohio music, Cleveland music, Akron music, air oars">
+  <meta name="OWNER" content="BEEZWAX2@aol.com">
+  <meta name="AUTHOR" content="BEEZWAX2@aol.com">
+  <meta name="CONTENT-LANGUAGE" content="English">
+  <meta name="VW96.OBJECT TYPE" content="Document">
+  <meta name="RATING" content="General">
+  <meta name="ROBOTS" content="index,follow">
+  <meta name="originpath" content="{{page.path}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  {%-assign csspath = "/css/" | append: page.category | append: ".css"-%}
+  {%-assign file = site.static_files | where: "path", csspath | first-%}
+  {%-if file %}
+  <link rel="stylesheet" href="{{csspath}}" type="text/css">
+  {% else %}
+  <!-- No corresponding category css file. {{csspath}} -->
+  {% endif %}
+  <script src="/scripts/scripts.js" type="module"></script>
+  {%-assign scriptpath = "/scripts/" | append: page.category | append: ".js"-%}
+  {%-assign file = site.static_files | where: "path", scriptpath | first-%}
+  {% if file %}
+  <script src="/scripts/{{page.category}}.js" type="module"></script>
+  {% else %}
+  <!-- No corresponding category script file. -->
+  {% endif %}
+</head>
+
+<body class="{{ page.category | default: " default" }}">
+  <header>
+    <input type="checkbox" id="mainnavmenu" style="display:none;">
+    <nav aria-label="main">
+      <ul class="menu">
+        <li>
+          <a class="menuItem" href="/index">Home</a>
+        </li>
+      </ul>
+    </nav>
+
+    <label class="hamburger" for="mainnavmenu">
+      <span>Menu</span>
+      <svg viewBox="0 0 24 24" width=24 height=24 fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="15%" y1="15%" x2="85%" y2="15%" stroke-width="2" stroke-linecap="round"></line>
+        <line x1="15%" y1="50%" x2="85%" y2="50%" stroke-width="2" stroke-linecap="round"></line>
+        <line x1="15%" y1="85%" x2="85%" y2="85%" stroke-width="2" stroke-linecap="round"></line>
+        <line x1="15%" y1="15%" x2="85%" y2="85%" stroke-width="2" stroke-linecap="round"></line>
+        <line x1="85%" y1="15%" x2="15%" y2="85%" stroke-width="2" stroke-linecap="round"></line>
+      </svg>
+    </label>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; Donald Skoog</p>
+    </div>
+  </footer>
+</body>
+
+</html>
