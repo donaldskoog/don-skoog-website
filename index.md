@@ -4,3 +4,7 @@
 
 layout: default
 ---
+<figure markdown=1>
+<img src="images/portrait.jpg" alt="Donald Skoog Portrait">
+<figcaption>Donald Skoog – Writer Composer Speaker</figcaption>
+</figure>
