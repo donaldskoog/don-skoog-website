@@ -18,22 +18,8 @@
   <meta name="originpath" content="{{page.path}}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  {%-assign csspath = "/css/" | append: page.category | append: ".css"-%}
-  {%-assign file = site.static_files | where: "path", csspath | first-%}
-  {%-if file %}
-  <link rel="stylesheet" href="{{csspath}}" type="text/css">
-  {% else %}
-  <!-- No corresponding category css file. {{csspath}} -->
-  {% endif %}
-  <script src="/scripts/scripts.js" type="module"></script>
-  {%-assign scriptpath = "/scripts/" | append: page.category | append: ".js"-%}
-  {%-assign file = site.static_files | where: "path", scriptpath | first-%}
-  {% if file %}
-  <script src="/scripts/{{page.category}}.js" type="module"></script>
-  {% else %}
-  <!-- No corresponding category script file. -->
-  {% endif %}
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="scripts.js" type="module"></script>
 </head>
 
 <body class="{{ page.category | default: " default" }}">
