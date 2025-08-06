@@ -126,12 +126,12 @@ header {
   align-items: center;
 }
 
-header>svg {
+header>a>svg {
   stroke: var(--white);
   fill: var(--white);
 }
 
-header>svg g#glasses {
+header>a>svg g#glasses {
   fill: var(--white);
 }
 
