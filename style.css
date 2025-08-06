@@ -114,6 +114,12 @@ h5 {
 footer a,
 header a {
   color: var(--white);
+  transition: all 0.2s ease-in-out allow-discrete;
+}
+
+footer a:hover,
+header a:hover {
+  color: var(--primary);
 }
 
 
@@ -129,10 +135,21 @@ header {
 header>a>svg {
   stroke: var(--white);
   fill: var(--white);
+  transition: all 0.5s;
 }
 
 header>a>svg g#glasses {
   fill: var(--white);
+  transition: all 2s;
+}
+
+header>a:hover>svg {
+  stroke: var(--primary);
+  fill: var(--primary);
+}
+
+header>a:hover>svg g#glasses {
+  fill: var(--primary);
 }
 
 /* Nav */
@@ -158,7 +175,7 @@ header>a>svg g#glasses {
   padding: 4px;
   border: none;
   border-radius: 5px;
-  background: var(--primary);
+  border: 1px solid var(--primary);
   cursor: pointer;
   color: var(--white);
 }
@@ -208,7 +225,6 @@ header>input:checked~.hamburger svg line:nth-of-type(2) {
   top: -20px;
   left: 0;
   right: 0;
-  bottom: 0;
   z-index: 99;
   background: var(--primary-dark);
   color: var(--white);
@@ -225,7 +241,7 @@ header>input:checked~.hamburger svg line:nth-of-type(2) {
 header input:checked~nav ul {
   transform: translateY(0);
   visibility: visible;
-  border: 1px solid salmon;
+  border-bottom: 4px solid var(--secondary-light)
 }
 
 nav {
@@ -254,6 +270,16 @@ section>div:first-of-type svg {
 * FOOTER
 */
 
+footer a {
+  text-decoration: none;
+}
+
+footer a svg {
+  width: 1.5em;
+  height: auto;
+  vertical-align: middle;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -262,6 +288,7 @@ footer {
   border-top: 1px solid var(--black);
   background-color: var(--primary-dark);
   color: var(--white);
+  padding: 1em;
 }
 
 
@@ -279,13 +306,11 @@ footer p {
     display: inline-block;
     font-size: 1.3rem;
     text-decoration: none;
-    color: var(--white);
     margin: 0;
   }
 
   .menuItem:hover {
     text-decoration: underline;
-    color: lightcoral;
   }
 
   .hamburger {
