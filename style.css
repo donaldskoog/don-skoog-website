@@ -17,6 +17,7 @@ button {
   --black: #222;
   --dark: #444;
   --white: #eee;
+  --grey: #777;
   --light: #c2c2c2;
   --lighter: #e2e2e2;
   --primary: #7786A1;
@@ -130,6 +131,7 @@ header {
   padding: 1em;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 header>a>svg {
@@ -267,6 +269,35 @@ section>div:first-of-type svg {
 }
 
 /**
+ * SOCIAL NAV
+ */
+nav#social {
+  position: absolute;
+  right: 1em;
+  bottom: 10px;
+  display: flex;
+  gap: 1em;
+  border: 1px dotted var(--white);
+  padding: 0.2em;
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+nav#social a {
+  width: 30px;
+  height: 30px;
+  color: var(--white);
+}
+
+nav#social a svg {
+  border: none;
+}
+
+nav#social a:hover {
+  color: var(--grey);
+}
+
+/**
 * FOOTER
 */
 
@@ -310,7 +341,7 @@ footer p {
   }
 
   .menuItem.secondary {
-    background-color: grey;
+    background-color: var(--grey);
     padding: 0.2em 1em;
     font-size: smaller;
   }
@@ -323,7 +354,7 @@ footer p {
     background-color: var(--white);
     padding: 0.2em 1em;
     font-size: smaller;
-    color: grey;
+    color: var(--grey);
   }
 
   .hamburger {
