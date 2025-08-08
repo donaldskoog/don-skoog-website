@@ -309,8 +309,21 @@ footer p {
     margin: 0;
   }
 
+  .menuItem.secondary {
+    background-color: grey;
+    padding: 0.2em 1em;
+    font-size: smaller;
+  }
+
   .menuItem:hover {
     text-decoration: underline;
+  }
+
+  .menuItem.secondary:hover {
+    background-color: var(--white);
+    padding: 0.2em 1em;
+    font-size: smaller;
+    color: grey;
   }
 
   .hamburger {
@@ -319,13 +332,21 @@ footer p {
 
   .menu {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em 1em;
     transform: unset;
     visibility: visible;
-    display: flex;
-    gap: 0.2em;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
     padding: 0.4em;
+  }
+
+  .menu li:nth-of-type(1),
+  .menu li:nth-of-type(2),
+  .menu li:nth-of-type(3),
+  .menu li:nth-of-type(4) {
+    width: calc(25% - 1em);
   }
 
   section>div:first-of-type {
