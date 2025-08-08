@@ -17,7 +17,9 @@ button {
   --black: #222;
   --dark: #444;
   --white: #eee;
-  --grey: #777;
+  --transwhite: #eeeeee77;
+  --grey: #636070;
+  --transgrey: #63607077;
   --light: #c2c2c2;
   --lighter: #e2e2e2;
   --primary: #7786A1;
@@ -277,7 +279,7 @@ nav#social {
   bottom: 10px;
   display: flex;
   gap: 1em;
-  border: 1px dotted var(--white);
+  border: 1px dotted var(--transwhite);
   padding: 0.2em;
   justify-content: flex-end;
   width: fit-content;
@@ -287,6 +289,8 @@ nav#social a {
   width: 30px;
   height: 30px;
   color: var(--white);
+  border-radius: 4px;
+  padding: 0.1em;
 }
 
 nav#social a svg {
@@ -294,7 +298,7 @@ nav#social a svg {
 }
 
 nav#social a:hover {
-  color: var(--grey);
+  background-color: var(--grey);
 }
 
 /**
