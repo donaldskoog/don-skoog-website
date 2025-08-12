@@ -12,13 +12,13 @@ permalink: /composer/
       <h2>Selected Compositions</h2>
       <ul>
         <li>
-          <a href="https://youtu.be/QvV104uQCxU" title="Youtube video">Fascicle #1</a>, a three-movement, mul9-media work for The Dickinson Ensemble and women’s vocal ensemble, with midi accompaniment and video. Premiered in July, 2025.
+          <a href="https://youtu.be/QvV104uQCxU" title="Youtube video">Fascicle #1</a>, a three-movement, multimedia work for The Dickinson Ensemble and women’s vocal ensemble, with midi accompaniment and video. Premiered in July, 2025.
         </li>
         <li><u>Three Simple Songs on Three Short Poems</u>, for piano and narrator. Premiered in July, 2025.
         </li>
         <li><a href="https://youtu.be/Z4v0Kg57qHc" title="Youtube video">Three Etudes on One Poem</a>, a three-movement work for The Dickinson Ensemble and women’s vocal ensemble. Premiered in April, 2025.
         </li>
-        <li><a href="https://youtu.be/ABMLlbRSXZo" title="Youtube video">Emily Sings</a>, an eleven-movement chamber suite for soprano, flute, cello, and piano, performed by The Dickinson Ensemble at the Emily Dickinson Interna9onal Society Annual Mee9ng in July, 2024.
+        <li><a href="https://youtu.be/ABMLlbRSXZo" title="Youtube video">Emily Sings</a>, an eleven-movement chamber suite for soprano, flute, cello, and piano, performed by The Dickinson Ensemble at the Emily Dickinson International Society Annual Mee9ng in July, 2024.
         </li>
         <li><u>La Cantilena de las Luces</u> for percussion ensemble, commissioned by Millikin University. Premiered there in 2018. Published by CMP Press.
         </li>
