@@ -280,12 +280,12 @@ section {
   max-width: 90vw;
 }
 
-section>div:first-of-type {
+section>div {
   display: flex;
   flex-direction: column;
 }
 
-section>div:first-of-type svg {
+section>div>svg {
   width: 500px;
   margin: auto;
   max-width: 80vw;
@@ -405,15 +405,24 @@ footer p {
     width: calc(25% - 1em);
   }
 
-  section>div:first-of-type {
+  section>div {
+    display: flex;
     flex-direction: row;
+  }
+
+  section>div:nth-of-type(odd) {
+    flex-direction: row;
+  }
+
+  section>div:nth-of-type(even) {
+    flex-direction: row-reverse;
   }
 
   section>div>* {
     flex: 2 2 auto;
   }
 
-  section>div:first-of-type svg {
+  section>div>svg {
     flex: 1 1 auto;
   }
 }
