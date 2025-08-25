@@ -9,7 +9,7 @@ permalink: /composer/
   <div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="124" cy="132" r="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="40.01" y1="216" x2="109.86" y2="146.14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M40,216l139.45-23.24a8,8,0,0,0,6.17-5.08L208,128,128,48,68.32,70.38a8,8,0,0,0-5.08,6.17Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M208,128l29.66-29.66a8,8,0,0,0,0-11.31L169,18.34a8,8,0,0,0-11.31,0L128,48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
     <div>
-      Don Skoog wrote his first published composition in 1980, and has continued to produce new music ever since. He has written for marimba solo and trio, as well as percussion ensemble, Latin jazz, contemporary song, orchestra, mixed improvisational, and now chamber music with The Dickinson Ensemble.  He is currently working on the opera, The War Between the Houses, scheduled for performance in 2027.
+      Don Skoog wrote his first published composition in 1980, and has continued to produce new music ever since. He has written for marimba solo and trio, as well as percussion ensemble, Latin jazz, contemporary song, orchestra, mixed improvisational, and now chamber music with The Dickinson Ensemble.  He is currently working on the opera, <i>The War Between the Houses</i>, scheduled for performance in 2027.
     </div>
   </div>
 ## Selected Compositions
