@@ -15,7 +15,7 @@ permalink: /speaker/
     </div>
   </div>
   <div>
-    <p>Mr. Skoog has given talks, demonstratons, and clinics at the University of Wisconsin (Madison and Milwaukee), Northwestern University, Valparaiso University, Vandercook College, Kansas State University, Colorado State University, Illinois Wesleyen University, the Nashville Jazz Workshop, Millikin University, College of DuPage, Concordia University, and the PAS Illinois Day of Percussion, as well as hundreds of presentatons in grade- and high-schools through Classical Music Chicago, and has given many library presentatons on Jazz, Flamenco, Latin, and Arabic music.</p>
+    <p>Mr. Skoog has given talks, demonstrations, and clinics at the University of Wisconsin (Madison and Milwaukee), Northwestern University, Valparaiso University, Vandercook College, Kansas State University, Colorado State University, Illinois Wesleyen University, the Nashville Jazz Workshop, Millikin University, College of DuPage, Concordia University, and the PAS Illinois Day of Percussion, as well as hundreds of presentatons in grade- and high-schools through Classical Music Chicago, and has given many library presentatons on Jazz, Flamenco, Latin, and Arabic music.</p>
   </div>
 ## Recent Presentations
   <div>
