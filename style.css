@@ -158,23 +158,27 @@ header {
   position: relative;
 }
 
-header>a>svg {
+header>a>svg,
+header li a.logo>svg {
   stroke: var(--white);
   fill: var(--white);
   transition: all 0.5s;
 }
 
-header>a>svg g#glasses {
+header>a>svg g#glasses,
+header a.logo>svg g#glasses {
   fill: var(--white);
   transition: all 2s;
 }
 
-header>a:hover>svg {
+header>a:hover>svg,
+header a.logo:hover>svg {
   stroke: var(--primary);
   fill: var(--primary);
 }
 
-header>a:hover>svg g#glasses {
+header>a:hover>svg g#glasses,
+header a.logo:hover>svg g#glasses {
   fill: var(--primary);
 }
 
@@ -355,6 +359,10 @@ footer p {
   max-width: 80vw;
 }
 
+.menu li .logo {
+  display: none;
+}
+
 @media screen and (min-width:768px) {
   /* Nav */
 
@@ -363,6 +371,14 @@ footer p {
     font-size: 1.3rem;
     text-decoration: none;
     margin: 0;
+  }
+
+  header>.logo {
+    display: none;
+  }
+
+  .menu li .logo {
+    display: block;
   }
 
   /*   .menuItem.secondary {
@@ -393,13 +409,12 @@ footer p {
     gap: 0.8em 1em;
     transform: unset;
     visibility: visible;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     padding: 0.4em;
   }
 
   .menu li {
-    width: calc(20% - 1em);
     text-align: center;
   }
 
