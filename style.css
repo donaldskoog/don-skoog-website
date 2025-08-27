@@ -373,14 +373,6 @@ footer p {
     margin: 0;
   }
 
-  header>.logo {
-    display: none;
-  }
-
-  .menu li .logo {
-    display: block;
-  }
-
   /*   .menuItem.secondary {
     background-color: var(--grey);
     padding: 0.2em 1em;
