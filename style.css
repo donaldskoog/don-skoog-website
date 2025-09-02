@@ -291,7 +291,7 @@ section>div {
 
 section>div>svg {
   width: 500px;
-  margin: auto;
+  margin: 0 auto;
   max-width: 80vw;
 }
 
@@ -363,6 +363,12 @@ footer p {
   display: none;
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 90vw;
+}
+
 @media screen and (min-width:768px) {
   /* Nav */
 
@@ -389,6 +395,12 @@ footer p {
     font-size: smaller;
     color: var(--grey);
   } */
+
+
+
+  section>div.multimedia>svg {
+    margin: 3em auto;
+  }
 
   .hamburger {
     display: none;
@@ -417,6 +429,10 @@ footer p {
 
   section>div:nth-of-type(odd) {
     flex-direction: row;
+  }
+
+  section>div.multimedia:nth-of-type(odd) {
+    align-items: flex-start;
   }
 
   section>div:nth-of-type(even) {
