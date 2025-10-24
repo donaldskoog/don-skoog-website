@@ -398,8 +398,9 @@ iframe {
 
 
 
-  section>div.multimedia>svg {
+  section>div.multimedia svg {
     margin: 3em auto;
+    max-width: 500px;
   }
 
   section.multimedia {
