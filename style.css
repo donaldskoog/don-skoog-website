@@ -402,6 +402,36 @@ iframe {
     margin: 3em auto;
   }
 
+  section.multimedia {
+    width: 90%;
+    margin: auto;
+  }
+
+  section.multimedia>div.multimedia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-around;
+  }
+
+  section>div.multimedia>div {
+    padding: 0;
+  }
+
+  section>div.multimedia p {
+    margin: 1em auto;
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+
+  section>div.multimedia iframe {
+    width: 560px;
+    margin: auto;
+  }
+
   .hamburger {
     display: none;
   }
