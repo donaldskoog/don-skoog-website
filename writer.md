@@ -15,6 +15,9 @@ permalink: /writer/
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M128,88a32,32,0,0,1,32-32h72V200H160a32,32,0,0,0-32,32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,200H96a32,32,0,0,1,32,32V88A32,32,0,0,0,96,56H24Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="160" y1="96" x2="200" y2="96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="160" y1="128" x2="200" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="160" y1="160" x2="200" y2="160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
     <ul>
       <li>
+        <a href="/media/PercussiveNotesCumbiaArticle.pdf" title="PDF" target=_blank>The New Cumbia – The Women Drummers of Columbia</a> Percussive Notes, the magazine of the <a href="https://pas.org" title="Percussive Arts Society website">Percussive Arts Society</a> February 2026.
+      </li>
+      <li>
         <i>Making Emily Sing, Exploring the relationship between Poetical and Musical Time in setting Dickinson's poetry into song</i>. The Emily Dickinson International Society Journal. Volume XXXIV. Number1. 2025.
       </li>
       <li>
