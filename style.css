@@ -295,6 +295,13 @@ section>div>svg {
   max-width: 80vw;
 }
 
+/*
+ * LISTS
+*/
+ul>li {
+  margin-bottom: 0.5em;
+}
+
 /**
  * SOCIAL NAV
  */
