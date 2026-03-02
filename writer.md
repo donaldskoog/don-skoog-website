@@ -24,6 +24,9 @@ permalink: /writer/
         <i>Emily as Muse</i>. The Emily Dickinson International Society Bulletin. May, 2025.
       </li>
       <li>
+        <i>Adventures in the RhythmVerse. Volume One: Sing, Dance, Drum.</i>  A poetry chapbook. (2020). Published by CMP Press.
+      <li>
+      <li>
         <a href="https://humanities-web.s3.us-east-2.amazonaws.com/nelc/prod/2020-01/Majalla-Winter-2020.pdf" title="PDF" target=_blank>Introduction to Arabic Music, Part One, the rhythms</a>. In Arabic. UChicago Majalla. Center for Middle Eastern Studies, University of Chicago. Issue 4. Winter, 2020.</li>
       <li>
         <a href="https://www.amazon.com/Bata-Drumming-Instruments-Rhythms-People/dp/099622632X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rXNJlDdmlCjGcWCCPPIEyw.MjRjpATXLPRmcFY3EkUvI4-aW6Qk1W0l6DXsmJtZfMc&dib_tag=se&keywords=bata+drumming+skoog&qid=1754744813&sr=8-1" title="Amazon" target=_blank>Batá Drumming : The Instruments, the Rhythms, and the People Who Play Them : the Oru Seco</a>, with Alejandro Carvajal Guerra (2010). Published by CMP Press.
