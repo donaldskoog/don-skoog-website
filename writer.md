@@ -25,7 +25,7 @@ permalink: /writer/
       </li>
       <li>
         <i>Adventures in the RhythmVerse. Volume One: Sing, Dance, Drum.</i>  A poetry chapbook. (2020). Published by CMP Press.
-      <li>
+      </li>
       <li>
         <a href="https://humanities-web.s3.us-east-2.amazonaws.com/nelc/prod/2020-01/Majalla-Winter-2020.pdf" title="PDF" target=_blank>Introduction to Arabic Music, Part One, the rhythms</a>. In Arabic. UChicago Majalla. Center for Middle Eastern Studies, University of Chicago. Issue 4. Winter, 2020.</li>
       <li>
